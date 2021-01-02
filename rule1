@@ -1,2 +1,2 @@
 rule1 on rfreceived#data=F95C9E do backlog publish2 sonoff_61_rf_bridge/motion_porch ON; ruletimer1 15 endon on rules#timer=1 do publish2 sonoff_61_rf_bridge/motion_porch OFF endon
-on rfreceived#data=0DB520 do backlog publish2 sonoff_61_rf_bridge/motion_doggy_door ON; ruletimer2 15 endon on rules#timer=2 do publish2 sonoff_61_rf_bridge/motion_doggy_door OFF endon
+on rfreceived#data=0DB529 do backlog publish2 sonoff_61_rf_bridge/motion_doggy_door ON; ruletimer2 15 endon on rules#timer=2 do publish2 sonoff_61_rf_bridge/motion_doggy_door OFF endon
